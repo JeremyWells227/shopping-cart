@@ -1,41 +1,86 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 .nav {
 	background: rgb(0,0,0);
 	background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(88,88,88,1) 75%);;
-	max-width: 80%;
+	max-width: 100%;
+	width: 85%;
 	min-width: 40%;
-	height: 70px;
+	height: 72px;
 	display: flex;
 	justify-content: space-evenly ;
 	align-content: space-evenly ;
+	align-self: center;
 	flex-direction: row;
-	margin: 0;
-	padding: 0;
+	border-radius: 100px;
 }
+
+
+.title { 
+	color: rgba(88,188,88,1);
+	text-decoration: italics;
+	font-size: 3em;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding-left: 20px;
+	border-radius: 100px;
+	background: rgb(0,0,0);
+	background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(88,88,88,1) 75%);;
+} 
+
 .navlinks {
 	max-width: 80%;
 	min-width: 40%;
-	height: 100%;
+	max-height: 100%;
 	padding: 0;
 	margin: 0;
 	display: flex;
+	align-content: center;
 	justify-content: space-evenly ;
 	flex-direction: row;
 }
 .nav  ul{
 	list-style: none;
-	flex: 1 1 20;
+	flex: 1 1 48px;
+	text-align: center;
+	padding: 12px;
+}
+.nav  ul a {
+	font-family: "Lato", 'sans-serif';
 	font-size: 32px;
-	height: 100%;
+	color: white;
+	text-align: center;
+	transition: 400ms;
 }
 
-.active { 
-	background-color: rgb(200,200,200);
-	background: rgb(185,185,185);
-	background: radial-gradient(circle, rgba(185,185,185,1) 60%, rgba(0,0,0,1) 90%);
-	padding: 20px;
-	border-radius: 15%;
+.nav ul a:link {
+	text-decoration: none;
+}
+
+
+.nav ul a:visited {
+	text-decoration: none;
+}
+.nav ul a:hover {
+	text-decoration: none;
+	background: rgb(50, 169, 93);
+	transition: 400ms;
+	border-radius: 21px;
+	padding: 21px;
+}
+
+.nav ul a:active {
+	text-decoration: none;
+	border: none;
+
+}
+
+.active {
+	color: black;
+	background: rgb(60, 179, 113);
+	border-radius: 10px;
+	padding: 21px;
 	transition: 400ms;
 	text-align: center;
 } 

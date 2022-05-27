@@ -1,12 +1,12 @@
 import React, {useState,useEffect} from "react";
+import Layout from "./Layout";
 
 
 const Shop = (props) => { 
-
-
 	return (
-		<div>
-		</div>
+		<Layout>
+		Shop
+		</Layout>
 	)
 }
 

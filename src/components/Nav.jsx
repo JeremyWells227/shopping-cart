@@ -4,22 +4,21 @@ import "../styles/Nav.scss";
 
 const Nav = () => {
   return (
-    <Router>
       <div className="nav">
+				<h1 className="title">JarHead 🫙</h1>
         <ul className="navlinks">
           <li key="home" id="home">
-            <NavLink to="/home" activeClassName="selected">
+            <NavLink to="/home" className={(navdata)=> (navdata.isActive ? "active" : "" )}>
               Home
             </NavLink>
           </li>
           <li key="shop" id="shop">
-            <NavLink to="/shop" activeClassName="selected">
+            <NavLink to="/shop" className={(navdata)=> (navdata.isActive ? "active" : "" )} >
               Shop
             </NavLink>
           </li>
         </ul>
       </div>
-    </Router>
   );
 };
 
