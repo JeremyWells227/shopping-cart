@@ -1,0 +1,41 @@
+
+
+.nav {
+	background: rgb(0,0,0);
+	background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(88,88,88,1) 75%);;
+	max-width: 80%;
+	min-width: 40%;
+	height: 70px;
+	display: flex;
+	justify-content: space-evenly ;
+	align-content: space-evenly ;
+	flex-direction: row;
+	margin: 0;
+	padding: 0;
+}
+.navlinks {
+	max-width: 80%;
+	min-width: 40%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	justify-content: space-evenly ;
+	flex-direction: row;
+}
+.nav  ul{
+	list-style: none;
+	flex: 1 1 20;
+	font-size: 32px;
+	height: 100%;
+}
+
+.active { 
+	background-color: rgb(200,200,200);
+	background: rgb(185,185,185);
+	background: radial-gradient(circle, rgba(185,185,185,1) 60%, rgba(0,0,0,1) 90%);
+	padding: 20px;
+	border-radius: 15%;
+	transition: 400ms;
+	text-align: center;
+} 

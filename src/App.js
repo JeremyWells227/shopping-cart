@@ -1,17 +1,13 @@
-import './App.css';
-import {BrowserRouter, Routes, Route} from "react-router-dom"
-import Home from "./components/Home"
-import Shop from "./components/Shop"
+import "./App.scss";
+import Nav from "./components/Nav";
+import ShopRouter from "./components/ShopRouter";
 
 function App() {
   return (
-		<BrowserRouter>
-			<Routes>
-				<Route path="/" element={<Home/>} />
-				<Route path="/home" element={<Home/>} />
-				<Route path="/shop" element={<Shop/>} />
-			</Routes>
-		</BrowserRouter>
+    <div className="AppContainer">
+      <Nav />
+      <ShopRouter />
+    </div>
   );
 }
 
