@@ -1,0 +1,24 @@
+{
+	"items":[
+		{
+			"img": "../assets/coffee.jpg",
+			"name": "coffee",
+			"cost": 5
+		},
+		{
+			"img": "../assets/cookie.jpg",
+			"name": "cookie",
+			"cost": 5
+		},
+		{
+			"img": "../assets/light.jpg",
+			"name": "light",
+			"cost": 10
+		},
+			{
+				"img": "../assets/trees.jpg",
+			"name": "trees",
+			"cost": 10
+		}
+	]
+}

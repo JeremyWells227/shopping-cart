@@ -1,0 +1,45 @@
+
+.Shop {
+	overflow: scroll;
+	ms-overflow-style: none;
+	scrollbar-width: none;
+}
+
+.Shop::-webkit-scrollbar { 
+	display: none;
+}
+
+.Shop::-webkit-scrollbar { 
+	display: none;
+}
+
+.Shop ul {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+}
+.Shop ul  li{
+	list-style: none;
+	border: 1px solid black;
+	margin: 5px;
+	padding: 10px;
+	background-color: rgb(50,100,50) ;
+}
+
+.Shop ul li img { 
+	width: 200px;
+	height: 200px;
+	margin: 0;
+	padding: 0;
+} 
+
+.ShopCardText {
+	font-size: 0.5em;
+	text-align: center;
+} 
+.ShopCardCost {
+	font-size: 0.8em;
+	text-align: center;
+} 
+
+
